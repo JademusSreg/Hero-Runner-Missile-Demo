@@ -1,0 +1,145 @@
+{
+    "units": {
+        "Demo Banker Missile": {
+            "baseUnit": "_CMissile",
+            "components": {
+                "behavior": {
+                    "behaviorType": 1
+                },
+                "unitBattleData": {
+                    "enemySearchRange": 2,
+                    "engageRadius": 2
+                }
+            },
+            "references": {
+                "weaponList": [
+                    "Demo Banker Missile Smite"
+                ]
+            }
+        },
+        "Demo Banker Missile Smite Missile": {
+            "baseUnit": "_CMissile",
+            "components": {
+                "unitStats": {
+                    "ground": false
+                }
+            }
+        },
+        "Demo Forward Missile": {
+            "baseUnit": "_CMissile"
+        },
+        "Demo Goblin": {
+            "baseUnit": "Standard MeleeUnit",
+            "components": {
+                "movement": {
+                    "moveSpeed": 6
+                }
+            }
+        },
+        "Demo Hero": {
+            "baseUnit": "Standard MeleeUnit",
+            "components": {
+                "movement": {
+                    "moveSpeed": 3
+                },
+                "behavior": {
+                    "behaviorType": 0
+                }
+            }
+        },
+        "Demo Orbital Missile Blue": {
+            "baseUnit": "_CMissile"
+        },
+        "Demo Orbital Missile Green": {
+            "baseUnit": "_CMissile"
+        },
+        "Demo Orbital Missile Red": {
+            "baseUnit": "_CMissile"
+        },
+        "Environment Temple Floor": {
+            "components": {
+                "unitStats": {
+                    "ground": false,
+                    "selectable": false,
+                    "targetPriority": 0,
+                    "ignoreCollision": true
+                },
+                "turning": {
+                    "turningSpeed": 0
+                },
+                "behavior": {
+                    "behaviorType": 1
+                }
+            },
+            "hideUnitStatusBar": true
+        },
+        "Environment Temple Lower Floor": {
+            "components": {
+                "unitStats": {
+                    "ground": false,
+                    "selectable": false,
+                    "targetPriority": 0,
+                    "ignoreCollision": true
+                },
+                "turning": {
+                    "turningSpeed": 0
+                },
+                "behavior": {
+                    "behaviorType": 1
+                }
+            },
+            "hideUnitStatusBar": true
+        },
+        "Environment Temple Lower Wall": {
+            "components": {
+                "unitStats": {
+                    "ground": false,
+                    "selectable": false,
+                    "targetPriority": 0,
+                    "ignoreCollision": true
+                },
+                "turning": {
+                    "turningSpeed": 0
+                },
+                "behavior": {
+                    "behaviorType": 1
+                }
+            },
+            "hideUnitStatusBar": true
+        },
+        "Environment Temple Roof": {
+            "components": {
+                "unitStats": {
+                    "ground": false,
+                    "selectable": false,
+                    "targetPriority": 0,
+                    "ignoreCollision": true
+                },
+                "turning": {
+                    "turningSpeed": 0
+                },
+                "behavior": {
+                    "behaviorType": 1
+                }
+            },
+            "hideUnitStatusBar": true
+        },
+        "Environment Temple Wall": {
+            "components": {
+                "unitStats": {
+                    "ground": false,
+                    "selectable": false,
+                    "targetPriority": 0,
+                    "ignoreCollision": true
+                },
+                "turning": {
+                    "turningSpeed": 0
+                },
+                "behavior": {
+                    "behaviorType": 1
+                }
+            },
+            "hideUnitStatusBar": true
+        }
+    }
+}

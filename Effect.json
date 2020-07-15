@@ -1,0 +1,17 @@
+{
+    "effects": {
+        "Demo Banker Missile Smite": {
+            "parent": "Standard RangedUnit Weapon Launch",
+            "launchMissile": {
+                "missileUnit": "Demo Banker Missile Smite Missile",
+                "effect": "Demo Banker Missile Smite Damage"
+            }
+        },
+        "Demo Banker Missile Smite Damage": {
+            "damage": {
+                "whichUnit": 1,
+                "damageAmount": 5
+            }
+        }
+    }
+}

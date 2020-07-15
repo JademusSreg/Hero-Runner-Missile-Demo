@@ -1,0 +1,21 @@
+{
+    "settings": {
+        "dependencies": [
+            "Arcade/Core"
+        ]
+    },
+    "triggerSettings": {
+        "usedUnits": [
+            "Environment Temple Floor",
+            "Environment Temple Wall",
+            "Environment Temple Roof",
+            "Environment Temple Lower Floor",
+            "Environment Temple Lower Wall",
+            "Demo Orbital Missile Blue",
+            "Demo Orbital Missile Red",
+            "Demo Orbital Missile Green",
+            "Demo Hero",
+            "Demo Banker Missile"
+        ]
+    }
+}
